@@ -5,3 +5,11 @@ C:\INFO200\StudentDB\obj\Release\StudentDB.csproj.SuggestedBindingRedirects.cach
 C:\INFO200\StudentDB\obj\Release\StudentDB.csproj.CoreCompileInputs.cache
 C:\INFO200\StudentDB\obj\Release\StudentDB.exe
 C:\INFO200\StudentDB\obj\Release\StudentDB.pdb
+C:\Users\hgcho\Documents\GitHub\CSharp\StudentDB\bin\Release\StudentDB.exe.config
+C:\Users\hgcho\Documents\GitHub\CSharp\StudentDB\bin\Release\StudentDB.exe
+C:\Users\hgcho\Documents\GitHub\CSharp\StudentDB\bin\Release\StudentDB.pdb
+C:\Users\hgcho\Documents\GitHub\CSharp\StudentDB\obj\Release\StudentDB.csproj.AssemblyReference.cache
+C:\Users\hgcho\Documents\GitHub\CSharp\StudentDB\obj\Release\StudentDB.csproj.SuggestedBindingRedirects.cache
+C:\Users\hgcho\Documents\GitHub\CSharp\StudentDB\obj\Release\StudentDB.csproj.CoreCompileInputs.cache
+C:\Users\hgcho\Documents\GitHub\CSharp\StudentDB\obj\Release\StudentDB.exe
+C:\Users\hgcho\Documents\GitHub\CSharp\StudentDB\obj\Release\StudentDB.pdb

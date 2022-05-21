@@ -1,8 +1,6 @@
-﻿// header
-
-// description
-
-// change history
+﻿// Jason Choi
+// TINFO-200B
+// L6-OOP Student.cs
 
 using System;
 using System.Collections.Generic;
