@@ -1,0 +1,7 @@
+C:\INFO200\GLife\bin\Release\GLife.exe.config
+C:\INFO200\GLife\bin\Release\GLife.exe
+C:\INFO200\GLife\bin\Release\GLife.pdb
+C:\INFO200\GLife\obj\Release\GLife.csproj.SuggestedBindingRedirects.cache
+C:\INFO200\GLife\obj\Release\GLife.csproj.CoreCompileInputs.cache
+C:\INFO200\GLife\obj\Release\GLife.exe
+C:\INFO200\GLife\obj\Release\GLife.pdb

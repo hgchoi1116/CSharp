@@ -1,0 +1,15 @@
+G:\My Drive\UW-T\Winter_2022\INFO200\Week4\GLife\bin\Debug\GLife.exe.config
+G:\My Drive\UW-T\Winter_2022\INFO200\Week4\GLife\bin\Debug\GLife.exe
+G:\My Drive\UW-T\Winter_2022\INFO200\Week4\GLife\bin\Debug\GLife.pdb
+G:\My Drive\UW-T\Winter_2022\INFO200\Week4\GLife\obj\Debug\GLife.csproj.AssemblyReference.cache
+G:\My Drive\UW-T\Winter_2022\INFO200\Week4\GLife\obj\Debug\GLife.csproj.SuggestedBindingRedirects.cache
+G:\My Drive\UW-T\Winter_2022\INFO200\Week4\GLife\obj\Debug\GLife.csproj.CoreCompileInputs.cache
+G:\My Drive\UW-T\Winter_2022\INFO200\Week4\GLife\obj\Debug\GLife.exe
+G:\My Drive\UW-T\Winter_2022\INFO200\Week4\GLife\obj\Debug\GLife.pdb
+C:\INFO200\GLife\bin\Debug\GLife.exe.config
+C:\INFO200\GLife\bin\Debug\GLife.exe
+C:\INFO200\GLife\bin\Debug\GLife.pdb
+C:\INFO200\GLife\obj\Debug\GLife.csproj.SuggestedBindingRedirects.cache
+C:\INFO200\GLife\obj\Debug\GLife.csproj.CoreCompileInputs.cache
+C:\INFO200\GLife\obj\Debug\GLife.exe
+C:\INFO200\GLife\obj\Debug\GLife.pdb

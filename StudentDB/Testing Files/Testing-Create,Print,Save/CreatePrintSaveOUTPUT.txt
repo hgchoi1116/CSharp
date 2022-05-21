@@ -1,0 +1,252 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220302023951
+Username: DESKTOP-9FU88SO\hyunc
+RunAs User: DESKTOP-9FU88SO\hyunc
+Configuration Name: 
+Machine: DESKTOP-9FU88SO (Microsoft Windows NT 10.0.19043.0)
+Host Application: C:\WINDOWS\SysWOW64\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command & { Import-Module 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\Microsoft.VisualStudio.DevShell.dll'; Enter-VsDevShell -SetDefaultWindowTitle -InstallPath 'C:\Program Files\Microsoft Visual Studio\2022\Community' -StartInPath 'C:\INFO200\StudentDB' }
+Process ID: 16220
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is OUTPUT.txt
+PS C:\INFO200\StudentDB> bin\Debug\StudentDB.exe
+
+********************************************
+*********** Student DB Main Menu ***********
+********************************************
+[C]reate a student record
+[D]elete a student record
+[F]ind a student record
+[P]rint all records
+[M]odify a student record
+[S]ave all records without exit
+[E]xit the database (without save)
+Make selection by entering the first letter.
+******** User Selection: p
+********** Printing All Records *************
+************** Student Record *************
+First name: Alice
+ Last name: Andersion
+ Grade Avg: 3.9
+     Email: aanderson@uw.edu
+  Enrolled: 2/16/2022 04:47:01 PM
+      Year: Freshman
+     Major: Computer Science
+
+************** Student Record *************
+First name: Bob
+ Last name: Bradshaw
+ Grade Avg: 3.7
+     Email: bbradshaw@uw.edu
+  Enrolled: 2/16/2022 04:47:01 PM
+    Credit: $5,000.99
+   Advisor: Dr. Sam Chung
+
+************** Student Record *************
+First name: Carlos
+ Last name: Castaneda
+ Grade Avg: 3.5
+     Email: ccastaneda@uw.edu
+  Enrolled: 2/16/2022 04:47:01 PM
+      Year: Junior
+     Major: Information Technology
+
+************** Student Record *************
+First name: David
+ Last name: Davis
+ Grade Avg: 3.1
+     Email: ddavis@uw.edu
+  Enrolled: 2/16/2022 04:47:01 PM
+    Credit: $6,000.99
+   Advisor: Dr. Donald Chinn
+
+******** Done Printing All Records ***********
+
+********************************************
+*********** Student DB Main Menu ***********
+********************************************
+[C]reate a student record
+[D]elete a student record
+[F]ind a student record
+[P]rint all records
+[M]odify a student record
+[S]ave all records without exit
+[E]xit the database (without save)
+Make selection by entering the first letter.
+******** User Selection: c
+ENTER email address (primary key) to search:hyunc16@uw.edu
+hyunc16@uw.edu NOT FOUND.
+Enter the first name: Jason
+Enter the last name: Choi
+Enter the grade pt. average: 4.0
+[U]ndergrad or [G]rad Student? U
+[1]Freshman [2]Sophmore [3]Junior [4]Senior
+Enter the year/rank in school: 3
+Enter the degree major: Information Technology
+Adding new UNDERGRAD to database:
+************** Student Record *************
+First name: Jason
+ Last name: Choi
+ Grade Avg: 4.0
+     Email: hyunc16@uw.edu
+  Enrolled: 3/2/2022 02:40:20 AM
+      Year: Junior
+     Major: Information Technology
+
+
+********************************************
+*********** Student DB Main Menu ***********
+********************************************
+[C]reate a student record
+[D]elete a student record
+[F]ind a student record
+[P]rint all records
+[M]odify a student record
+[S]ave all records without exit
+[E]xit the database (without save)
+Make selection by entering the first letter.
+******** User Selection: C
+ENTER email address (primary key) to search:ddavis@uw.edu
+FOUND email address: ddavis@uw.edu
+ddavis@uw.edu RECORD FOUND! Cannot add a student with email ddavis@uw.edu:
+
+********************************************
+*********** Student DB Main Menu ***********
+********************************************
+[C]reate a student record
+[D]elete a student record
+[F]ind a student record
+[P]rint all records
+[M]odify a student record
+[S]ave all records without exit
+[E]xit the database (without save)
+Make selection by entering the first letter.
+******** User Selection: p
+********** Printing All Records *************
+************** Student Record *************
+First name: Alice
+ Last name: Andersion
+ Grade Avg: 3.9
+     Email: aanderson@uw.edu
+  Enrolled: 2/16/2022 04:47:01 PM
+      Year: Freshman
+     Major: Computer Science
+
+************** Student Record *************
+First name: Bob
+ Last name: Bradshaw
+ Grade Avg: 3.7
+     Email: bbradshaw@uw.edu
+  Enrolled: 2/16/2022 04:47:01 PM
+    Credit: $5,000.99
+   Advisor: Dr. Sam Chung
+
+************** Student Record *************
+First name: Carlos
+ Last name: Castaneda
+ Grade Avg: 3.5
+     Email: ccastaneda@uw.edu
+  Enrolled: 2/16/2022 04:47:01 PM
+      Year: Junior
+     Major: Information Technology
+
+************** Student Record *************
+First name: David
+ Last name: Davis
+ Grade Avg: 3.1
+     Email: ddavis@uw.edu
+  Enrolled: 2/16/2022 04:47:01 PM
+    Credit: $6,000.99
+   Advisor: Dr. Donald Chinn
+
+************** Student Record *************
+First name: Jason
+ Last name: Choi
+ Grade Avg: 4.0
+     Email: hyunc16@uw.edu
+  Enrolled: 3/2/2022 02:40:20 AM
+      Year: Junior
+     Major: Information Technology
+
+******** Done Printing All Records ***********
+
+********************************************
+*********** Student DB Main Menu ***********
+********************************************
+[C]reate a student record
+[D]elete a student record
+[F]ind a student record
+[P]rint all records
+[M]odify a student record
+[S]ave all records without exit
+[E]xit the database (without save)
+Make selection by entering the first letter.
+******** User Selection: s
+********** Printing All Records to the OUTPUT File *************
+StudentDB.Undergrad
+Alice
+Andersion
+3.9
+aanderson@uw.edu
+2/16/2022 04:47:01 PM
+Freshman
+Computer Science
+StudentDB.GradStudent
+Bob
+Bradshaw
+3.7
+bbradshaw@uw.edu
+2/16/2022 04:47:01 PM
+5000.99
+Dr. Sam Chung
+StudentDB.Undergrad
+Carlos
+Castaneda
+3.5
+ccastaneda@uw.edu
+2/16/2022 04:47:01 PM
+Junior
+Information Technology
+StudentDB.GradStudent
+David
+Davis
+3.1
+ddavis@uw.edu
+2/16/2022 04:47:01 PM
+6000.99
+Dr. Donald Chinn
+StudentDB.Undergrad
+Jason
+Choi
+4
+hyunc16@uw.edu
+3/2/2022 02:40:20 AM
+Junior
+Information Technology
+******** Done Printing All Records to the OUTPUT File ***********
+
+********************************************
+*********** Student DB Main Menu ***********
+********************************************
+[C]reate a student record
+[D]elete a student record
+[F]ind a student record
+[P]rint all records
+[M]odify a student record
+[S]ave all records without exit
+[E]xit the database (without save)
+Make selection by entering the first letter.
+******** User Selection: e
+PS C:\INFO200\StudentDB> stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20220302024040
+**********************

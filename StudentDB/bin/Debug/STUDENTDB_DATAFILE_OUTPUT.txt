@@ -1,0 +1,20 @@
+Alice
+Andersion
+3.9
+aanderson@uw.edu
+2/16/2022 04:43:50 PM
+Bob
+Bradshaw
+3.7
+bbradshaw@uw.edu
+2/16/2022 04:43:50 PM
+Carlos
+Castaneda
+3.5
+ccastaneda@uw.edu
+2/16/2022 04:43:50 PM
+David
+Davis
+3
+ddavis@uw.edu
+2/16/2022 04:43:50 PM

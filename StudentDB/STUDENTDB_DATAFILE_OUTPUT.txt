@@ -1,0 +1,32 @@
+StudentDB.Undergrad
+Alice
+Andersion
+3.9
+aanderson@uw.edu
+2/16/2022 04:47:01 PM
+Freshman
+Computer Science
+StudentDB.GradStudent
+Bob
+Bradshaw
+3.7
+bbradshaw@uw.edu
+2/16/2022 04:47:01 PM
+5000.99
+Dr. Sam Chung
+StudentDB.Undergrad
+Jason
+Choi
+4
+ccastaneda@uw.edu
+2/16/2022 04:47:01 PM
+Senior
+Computer Science
+StudentDB.GradStudent
+Haily
+Johnson
+3.5
+ddavis@uw.edu
+2/16/2022 04:47:01 PM
+4500.12
+Chuch

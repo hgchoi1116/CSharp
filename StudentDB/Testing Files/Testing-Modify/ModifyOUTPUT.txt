@@ -1,0 +1,430 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220302030602
+Username: DESKTOP-9FU88SO\hyunc
+RunAs User: DESKTOP-9FU88SO\hyunc
+Configuration Name: 
+Machine: DESKTOP-9FU88SO (Microsoft Windows NT 10.0.19043.0)
+Host Application: C:\WINDOWS\SysWOW64\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command & { Import-Module 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\Microsoft.VisualStudio.DevShell.dll'; Enter-VsDevShell -SetDefaultWindowTitle -InstallPath 'C:\Program Files\Microsoft Visual Studio\2022\Community' -StartInPath 'C:\INFO200\StudentDB' }
+Process ID: 21156
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is OUTPUT.txt
+PS C:\INFO200\StudentDB> bin\Debug\StudentDB.exe
+
+********************************************
+*********** Student DB Main Menu ***********
+********************************************
+[C]reate a student record
+[D]elete a student record
+[F]ind a student record
+[P]rint all records
+[M]odify a student record
+[S]ave all records without exit
+[E]xit the database (without save)
+Make selection by entering the first letter.
+******** User Selection: p
+********** Printing All Records *************
+************** Student Record *************
+First name: Alice
+ Last name: Andersion
+ Grade Avg: 3.9
+     Email: aanderson@uw.edu
+  Enrolled: 2/16/2022 04:47:01 PM
+      Year: Freshman
+     Major: Computer Science
+
+************** Student Record *************
+First name: Bob
+ Last name: Bradshaw
+ Grade Avg: 3.7
+     Email: bbradshaw@uw.edu
+  Enrolled: 2/16/2022 04:47:01 PM
+    Credit: $5,000.99
+   Advisor: Dr. Sam Chung
+
+************** Student Record *************
+First name: Carlos
+ Last name: Castaneda
+ Grade Avg: 3.5
+     Email: ccastaneda@uw.edu
+  Enrolled: 2/16/2022 04:47:01 PM
+      Year: Junior
+     Major: Information Technology
+
+************** Student Record *************
+First name: David
+ Last name: Davis
+ Grade Avg: 3.1
+     Email: ddavis@uw.edu
+  Enrolled: 2/16/2022 04:47:01 PM
+    Credit: $6,000.99
+   Advisor: Dr. Donald Chinn
+
+******** Done Printing All Records ***********
+
+********************************************
+*********** Student DB Main Menu ***********
+********************************************
+[C]reate a student record
+[D]elete a student record
+[F]ind a student record
+[P]rint all records
+[M]odify a student record
+[S]ave all records without exit
+[E]xit the database (without save)
+Make selection by entering the first letter.
+******** User Selection: m
+ENTER email address (primary key) to search:abcdefg@uw.edu
+abcdefg@uw.edu NOT FOUND.
+*****Record Not Found.
+ Cannot modify record for user: abcdefg@uw.edu
+
+********************************************
+*********** Student DB Main Menu ***********
+********************************************
+[C]reate a student record
+[D]elete a student record
+[F]ind a student record
+[P]rint all records
+[M]odify a student record
+[S]ave all records without exit
+[E]xit the database (without save)
+Make selection by entering the first letter.
+******** User Selection: m
+ENTER email address (primary key) to search:ccastaneda@uw.edu
+FOUND email address: ccastaneda@uw.edu
+
+****Email and Enrollment Date cannot be modified. To update Email or Enrollment Date,
+****delete the record and create a new record with correct Email.
+[1] First Name
+[2] Last Name
+[3] GPA
+[4] YearRank for Undergrad(ex. Freshman, Sophmore, Junior, Senior)
+[5] Major for Undergrad
+[6] Tuition Credit for Grad
+[7] Faculty Advisor for Grad
+[8] Exit to Main Menu
+---When done modifying, select "8" to exit the modify menu.---
+Enter your selection (number) from the list: 1
+Current first name: Carlos
+New First Name: Jason
+**Updated to First Name: Jason**
+
+****Email and Enrollment Date cannot be modified. To update Email or Enrollment Date,
+****delete the record and create a new record with correct Email.
+[1] First Name
+[2] Last Name
+[3] GPA
+[4] YearRank for Undergrad(ex. Freshman, Sophmore, Junior, Senior)
+[5] Major for Undergrad
+[6] Tuition Credit for Grad
+[7] Faculty Advisor for Grad
+[8] Exit to Main Menu
+---When done modifying, select "8" to exit the modify menu.---
+Enter your selection (number) from the list: 2
+Current Last Name: Castaneda
+New Last Name: Choi
+**Updated to Last Name: Choi**
+
+****Email and Enrollment Date cannot be modified. To update Email or Enrollment Date,
+****delete the record and create a new record with correct Email.
+[1] First Name
+[2] Last Name
+[3] GPA
+[4] YearRank for Undergrad(ex. Freshman, Sophmore, Junior, Senior)
+[5] Major for Undergrad
+[6] Tuition Credit for Grad
+[7] Faculty Advisor for Grad
+[8] Exit to Main Menu
+---When done modifying, select "8" to exit the modify menu.---
+Enter your selection (number) from the list: 3
+Current GPA: 3.5
+New GPA: 4.0
+**Updated to GPA: 4**
+
+****Email and Enrollment Date cannot be modified. To update Email or Enrollment Date,
+****delete the record and create a new record with correct Email.
+[1] First Name
+[2] Last Name
+[3] GPA
+[4] YearRank for Undergrad(ex. Freshman, Sophmore, Junior, Senior)
+[5] Major for Undergrad
+[6] Tuition Credit for Grad
+[7] Faculty Advisor for Grad
+[8] Exit to Main Menu
+---When done modifying, select "8" to exit the modify menu.---
+Enter your selection (number) from the list: 4
+Current YearRank: Junior
+[1]Freshman [2]Sophmore [3]Junior [4]Senior
+Select New YearRank (Enter number): 4
+**Updated to YearRank: Senior
+
+****Email and Enrollment Date cannot be modified. To update Email or Enrollment Date,
+****delete the record and create a new record with correct Email.
+[1] First Name
+[2] Last Name
+[3] GPA
+[4] YearRank for Undergrad(ex. Freshman, Sophmore, Junior, Senior)
+[5] Major for Undergrad
+[6] Tuition Credit for Grad
+[7] Faculty Advisor for Grad
+[8] Exit to Main Menu
+---When done modifying, select "8" to exit the modify menu.---
+Enter your selection (number) from the list: 5
+Current Major: Information Technology
+New Major: Computer Science
+**Updated to Major: Computer Science
+
+****Email and Enrollment Date cannot be modified. To update Email or Enrollment Date,
+****delete the record and create a new record with correct Email.
+[1] First Name
+[2] Last Name
+[3] GPA
+[4] YearRank for Undergrad(ex. Freshman, Sophmore, Junior, Senior)
+[5] Major for Undergrad
+[6] Tuition Credit for Grad
+[7] Faculty Advisor for Grad
+[8] Exit to Main Menu
+---When done modifying, select "8" to exit the modify menu.---
+Enter your selection (number) from the list: 6
+Invalid Selection. The record is not a GradStudent. Please try again.
+
+
+****Email and Enrollment Date cannot be modified. To update Email or Enrollment Date,
+****delete the record and create a new record with correct Email.
+[1] First Name
+[2] Last Name
+[3] GPA
+[4] YearRank for Undergrad(ex. Freshman, Sophmore, Junior, Senior)
+[5] Major for Undergrad
+[6] Tuition Credit for Grad
+[7] Faculty Advisor for Grad
+[8] Exit to Main Menu
+---When done modifying, select "8" to exit the modify menu.---
+Enter your selection (number) from the list: 7
+Invalid Selection. The record is not a GradStudent. Please try again.
+
+
+****Email and Enrollment Date cannot be modified. To update Email or Enrollment Date,
+****delete the record and create a new record with correct Email.
+[1] First Name
+[2] Last Name
+[3] GPA
+[4] YearRank for Undergrad(ex. Freshman, Sophmore, Junior, Senior)
+[5] Major for Undergrad
+[6] Tuition Credit for Grad
+[7] Faculty Advisor for Grad
+[8] Exit to Main Menu
+---When done modifying, select "8" to exit the modify menu.---
+Enter your selection (number) from the list: 8
+
+********************************************
+*********** Student DB Main Menu ***********
+********************************************
+[C]reate a student record
+[D]elete a student record
+[F]ind a student record
+[P]rint all records
+[M]odify a student record
+[S]ave all records without exit
+[E]xit the database (without save)
+Make selection by entering the first letter.
+******** User Selection: m
+ENTER email address (primary key) to search:ddavis@uw.edu
+FOUND email address: ddavis@uw.edu
+
+****Email and Enrollment Date cannot be modified. To update Email or Enrollment Date,
+****delete the record and create a new record with correct Email.
+[1] First Name
+[2] Last Name
+[3] GPA
+[4] YearRank for Undergrad(ex. Freshman, Sophmore, Junior, Senior)
+[5] Major for Undergrad
+[6] Tuition Credit for Grad
+[7] Faculty Advisor for Grad
+[8] Exit to Main Menu
+---When done modifying, select "8" to exit the modify menu.---
+Enter your selection (number) from the list: 1
+Current first name: David
+New First Name: Haily
+**Updated to First Name: Haily**
+
+****Email and Enrollment Date cannot be modified. To update Email or Enrollment Date,
+****delete the record and create a new record with correct Email.
+[1] First Name
+[2] Last Name
+[3] GPA
+[4] YearRank for Undergrad(ex. Freshman, Sophmore, Junior, Senior)
+[5] Major for Undergrad
+[6] Tuition Credit for Grad
+[7] Faculty Advisor for Grad
+[8] Exit to Main Menu
+---When done modifying, select "8" to exit the modify menu.---
+Enter your selection (number) from the list: 2
+Current Last Name: Davis
+New Last Name: Johnson
+**Updated to Last Name: Johnson**
+
+****Email and Enrollment Date cannot be modified. To update Email or Enrollment Date,
+****delete the record and create a new record with correct Email.
+[1] First Name
+[2] Last Name
+[3] GPA
+[4] YearRank for Undergrad(ex. Freshman, Sophmore, Junior, Senior)
+[5] Major for Undergrad
+[6] Tuition Credit for Grad
+[7] Faculty Advisor for Grad
+[8] Exit to Main Menu
+---When done modifying, select "8" to exit the modify menu.---
+Enter your selection (number) from the list: 3
+Current GPA: 3.1
+New GPA: 3.5
+**Updated to GPA: 3.5**
+
+****Email and Enrollment Date cannot be modified. To update Email or Enrollment Date,
+****delete the record and create a new record with correct Email.
+[1] First Name
+[2] Last Name
+[3] GPA
+[4] YearRank for Undergrad(ex. Freshman, Sophmore, Junior, Senior)
+[5] Major for Undergrad
+[6] Tuition Credit for Grad
+[7] Faculty Advisor for Grad
+[8] Exit to Main Menu
+---When done modifying, select "8" to exit the modify menu.---
+Enter your selection (number) from the list: 4
+Invalid Selection. The record is not an Undergrad Student. Please try again.
+
+
+****Email and Enrollment Date cannot be modified. To update Email or Enrollment Date,
+****delete the record and create a new record with correct Email.
+[1] First Name
+[2] Last Name
+[3] GPA
+[4] YearRank for Undergrad(ex. Freshman, Sophmore, Junior, Senior)
+[5] Major for Undergrad
+[6] Tuition Credit for Grad
+[7] Faculty Advisor for Grad
+[8] Exit to Main Menu
+---When done modifying, select "8" to exit the modify menu.---
+Enter your selection (number) from the list: 5
+Invalid Selection. The record is not an Undergrad Student. Please try again.
+
+
+****Email and Enrollment Date cannot be modified. To update Email or Enrollment Date,
+****delete the record and create a new record with correct Email.
+[1] First Name
+[2] Last Name
+[3] GPA
+[4] YearRank for Undergrad(ex. Freshman, Sophmore, Junior, Senior)
+[5] Major for Undergrad
+[6] Tuition Credit for Grad
+[7] Faculty Advisor for Grad
+[8] Exit to Main Menu
+---When done modifying, select "8" to exit the modify menu.---
+Enter your selection (number) from the list: 6
+Current Tuition Credit: 6000.99
+New Tuition Credit: 4500.12
+**Updated to Tution Credit: 4500.12
+
+****Email and Enrollment Date cannot be modified. To update Email or Enrollment Date,
+****delete the record and create a new record with correct Email.
+[1] First Name
+[2] Last Name
+[3] GPA
+[4] YearRank for Undergrad(ex. Freshman, Sophmore, Junior, Senior)
+[5] Major for Undergrad
+[6] Tuition Credit for Grad
+[7] Faculty Advisor for Grad
+[8] Exit to Main Menu
+---When done modifying, select "8" to exit the modify menu.---
+Enter your selection (number) from the list: 7
+Current Faculty Advisor: Dr. Donald Chinn
+New Faculty Advisor: Chuch
+**Updated to Faculty Advisor: Chuch
+
+****Email and Enrollment Date cannot be modified. To update Email or Enrollment Date,
+****delete the record and create a new record with correct Email.
+[1] First Name
+[2] Last Name
+[3] GPA
+[4] YearRank for Undergrad(ex. Freshman, Sophmore, Junior, Senior)
+[5] Major for Undergrad
+[6] Tuition Credit for Grad
+[7] Faculty Advisor for Grad
+[8] Exit to Main Menu
+---When done modifying, select "8" to exit the modify menu.---
+Enter your selection (number) from the list: 8
+
+********************************************
+*********** Student DB Main Menu ***********
+********************************************
+[C]reate a student record
+[D]elete a student record
+[F]ind a student record
+[P]rint all records
+[M]odify a student record
+[S]ave all records without exit
+[E]xit the database (without save)
+Make selection by entering the first letter.
+******** User Selection: s
+********** Printing All Records to the OUTPUT File *************
+StudentDB.Undergrad
+Alice
+Andersion
+3.9
+aanderson@uw.edu
+2/16/2022 04:47:01 PM
+Freshman
+Computer Science
+StudentDB.GradStudent
+Bob
+Bradshaw
+3.7
+bbradshaw@uw.edu
+2/16/2022 04:47:01 PM
+5000.99
+Dr. Sam Chung
+StudentDB.Undergrad
+Jason
+Choi
+4
+ccastaneda@uw.edu
+2/16/2022 04:47:01 PM
+Senior
+Computer Science
+StudentDB.GradStudent
+Haily
+Johnson
+3.5
+ddavis@uw.edu
+2/16/2022 04:47:01 PM
+4500.12
+Chuch
+******** Done Printing All Records to the OUTPUT File ***********
+
+********************************************
+*********** Student DB Main Menu ***********
+********************************************
+[C]reate a student record
+[D]elete a student record
+[F]ind a student record
+[P]rint all records
+[M]odify a student record
+[S]ave all records without exit
+[E]xit the database (without save)
+Make selection by entering the first letter.
+******** User Selection: e
+PS C:\INFO200\StudentDB> stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20220302030800
+**********************
